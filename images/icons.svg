@@ -92,5 +92,18 @@
     <symbol id="icon-Vector" viewBox="0 0 40 32">
       <path d="M33.782 1.02a3.668 3.668 0 0 1 5.115.039 3.712 3.712 0 0 1 .135 5.141L19.454 30.817a3.674 3.674 0 0 1-4.074.914 3.675 3.675 0 0 1-1.226-.815L1.17 17.862A3.693 3.693 0 0 1-.001 15.22a3.714 3.714 0 0 1 1.077-2.682 3.664 3.664 0 0 1 4.1-.763 3.68 3.68 0 0 1 1.195.857l10.275 10.325 17.042-21.83c.031-.038.063-.074.098-.109h-.005z"/>
     </symbol>
+    <symbol id="icon-menu-burger" viewBox="0 0 32 22" fill="none">
+      <g clip-path="url(#clip0_297053_2156)">
+        <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </symbol>
+    <symbol id="icon-close-menu" viewBox="0 0 8 8" fill="none">
+      <g clip-path="url(#clip0_595302_532)">
+      <path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42"/>
+      </g>
+    </symbol>
+    <symbol id="icon-Ellipse" viewBox="0 0 24 24" fill="none">
+      <circle opacity="0.1" cx="12" cy="12" r="11.5" fill="#E7E9FC" stroke="#2E2F42"/>
+    </symbol>
   </defs>
 </svg>
