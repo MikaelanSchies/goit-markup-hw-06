@@ -52,7 +52,6 @@ header {
 
   padding-right: 16px;
   padding-left: 16px;
-  background-color: #434455;
 }
 
 /*Tablet screen*/
@@ -95,7 +94,7 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   display: flex;
-  margin-right: 249px;
+  margin-left: 16px;
 }
 
 .logo:root {
@@ -105,7 +104,6 @@ header {
 @media only screen and (min-width: 768px) {
   .logo {
     margin-right: 120px;
-    margin-left: 16px;
   }
 }
 
@@ -130,8 +128,17 @@ header {
   }
 }
 
-.header-address-list {
-  display: block;
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .header-address-list {
+    display: block;
+    padding-right: 16px;
+    padding-left: 121px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .header-address-list {
+  }
 }
 
 .guidance {
@@ -211,19 +218,45 @@ img {
 }
 
 .dark-bg {
+  padding-bottom: 96px;
+}
+
+@media only screen and (min-width: 1158px) {
+  .dark-bg {
+    padding-bottom: 120px;
+  }
+}
+
+.dark-bg-container {
   max-width: 1440px;
   background: var(--navyblue, #2e2f42);
   flex-shrink: 0;
-  padding: 188px 0;
+  /*padding: 188px 0;*/
+  padding-top: 120px;
+  padding-right: 54px;
+  padding-left: 54px;
+  padding-bottom: 112px;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/images/people-office1.jpg);
+    url(../images/images/people-office\ 1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .dark-bg-container {
+    padding: 112px 0;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .dark-bg-container {
+    padding: 188px 0;
+  }
 }
 
 .visually-hidden {
@@ -244,6 +277,7 @@ img {
   height: 120px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 36px;
   color: var(--white, #ffffff);
   text-align: center;
   font-family: Roboto;
@@ -252,6 +286,23 @@ img {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .main-text {
+    max-width: 320px;
+    height: 80px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 72px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .main-text {
+    margin-bottom: 48px;
+  }
 }
 
 .main-button {
@@ -290,6 +341,11 @@ img {
   .two-section {
     padding: 120px 0;
   }
+}
+
+.two-section-list {
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 /*Tablet screen*/
@@ -1189,7 +1245,6 @@ input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
   border: none;
   border-radius: 50%;
   outline: none;
-  margin-right: 16px;
 }
 
 @media only screen and (min-width: 768px) {
