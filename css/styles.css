@@ -785,15 +785,15 @@ img {
   display: flex;*/
 }
 
+.two-footer-container {
+  margin-top: 97px;
+}
+
 @media only screen and (min-width: 768px) {
   .footer-container {
     max-width: 584px;
     justify-content: flex-start;
     gap: 72px 24px;
-  }
-
-  .two-footer-container {
-    margin-top: 97px;
   }
 
   .footer-container-icons {
@@ -948,6 +948,12 @@ img {
   color: #ffffff;
 }
 
+.logo-web,
+.footer-text,
+.button-subscribe-text {
+  padding-bottom: 16px;
+}
+
 @media only screen and (max-width: 767.98px) {
   .footer-form,
   .footer-form-label,
@@ -971,20 +977,9 @@ img {
   .footer-form-input {
     width: 264px;
   }
-
-  .logo-web,
-  .footer-text,
-  .button-subscribe-text {
-    padding-bottom: 16px;
-  }
 }
 
 @media only screen and (min-width: 1158px) {
-  .logo-web,
-  .footer-text,
-  .button-subscribe-text {
-    padding-bottom: 16px;
-  }
 }
 
 .button-subscribe {
@@ -1006,6 +1001,9 @@ img {
   border-radius: 4px;
   text-align: center;
   gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 96px;
+  margin-left: 116px;
 }
 
 .button-subscribe:hover,
@@ -1016,6 +1014,16 @@ img {
 .button-subscribe-icons {
   fill: #fff;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-form-input {
+    width: 264px;
+  }
+
+  .button-subscribe {
+    margin-left: 24px;
+  }
 }
 
 /*main portfolio*/
