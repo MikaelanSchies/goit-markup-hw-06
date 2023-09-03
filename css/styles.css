@@ -135,11 +135,6 @@ header {
   }
 }
 
-@media only screen and (min-width: 1158px) {
-  .header-address-list {
-  }
-}
-
 .guidance {
   color: #2e2f42;
   font-weight: 500;
@@ -248,23 +243,6 @@ img {
   .dark-bg {
     padding-bottom: 120px;
   }
-}
-
-.dark-bg-container {
-  /* max-width: 1440px;
-  background: var(--navyblue, #2e2f42);
-  flex-shrink: 0;
-  padding-right: 54px;
-  padding-left: 54px;
-  margin: 0 auto;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero/Dark-bg_mobile@1x.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;*/
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -440,7 +418,6 @@ img {
 
 @media only screen and (min-width: 1158px) {
   .two-section-list {
-    display: flex;
     gap: 24px;
     padding: 0;
   }
@@ -577,12 +554,6 @@ img {
   }
 }
 
-@media only screen and (min-width: 1158px) {
-  .fourth-section-container {
-    max-width: 1158px;
-  }
-}
-
 .fourth-section-list {
   display: flex;
   flex-wrap: wrap;
@@ -591,7 +562,6 @@ img {
 
 @media only screen and (min-width: 1158px) {
   .fourth-section-list {
-    display: flex;
     gap: 24px;
     padding: 0;
   }
@@ -785,10 +755,7 @@ img {
 .footer-dark-bg {
   background: var(--navyblue, #2e2f42);
   flex-shrink: 0;
-  padding-top: 96px;
-  padding-bottom: 96px;
-  /*padding: 100px 0;
-  display: flex;*/
+  padding: 96px 0;
 }
 
 @media only screen and (min-width: 1158px) {
@@ -802,18 +769,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 72px;
-  /*align-items: center;
-  margin: 0 auto;*/
-  /*margin-right: 120px;
-  margin-left: 156px;
-  display: flex;*/
 }
-
-/*@media only screen and (max-width: 1157.98px) {
-  .two-footer-container {
-    margin-top: 97px;
-  }
-}*/
 
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
   .footer-container {
@@ -821,14 +777,6 @@ img {
     justify-content: flex-start;
     gap: 72px 24px;
   }
-
-  /*.footer-container-icons {
-    margin-top: 96px;
-  }
-
-  .footer-subscribe {
-    margin-bottom: 96px;
-  }*/
 
   .button-subscribe {
     margin-left: 24px;
@@ -993,9 +941,6 @@ img {
   }
 }
 
-@media only screen and (min-width: 1158px) {
-}
-
 .button-subscribe {
   min-width: 165px;
   height: 40px;
@@ -1021,7 +966,6 @@ img {
 @media only screen and (max-width: 767.98px) {
   .button-subscribe {
     margin-top: 16px;
-    text-align: center;
     display: flex;
   }
 }
