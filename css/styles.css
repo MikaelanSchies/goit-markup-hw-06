@@ -962,6 +962,7 @@ img {
 
 .footer-form-input::placeholder {
   color: #ffffff;
+  padding-left: 16px;
 }
 
 .logo-web,
@@ -1014,6 +1015,7 @@ img {
   border-radius: 4px;
   text-align: center;
   gap: 16px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 767.98px) {
