@@ -825,11 +825,13 @@ img {
 
   .footer-container-icons {
     margin-top: 100px;
+    margin-bottom: 132px;
   }
 
   .footer-subscribe {
     margin-left: auto;
     margin-top: 100px;
+    margin-bottom: 132px;
   }
 }
 
