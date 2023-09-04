@@ -1,15 +1,10 @@
 body {
+  font-family: "Roboto";
   background-color: #ffffff;
 }
 
 :root {
   --brand-color: #ffffff;
-}
-
-p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
 }
 
 p,
@@ -454,21 +449,18 @@ img {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-right: 22px;
   margin-bottom: 8px;
 }
 
 @media only screen and (min-width: 768px) {
   .main-second-section {
-    display: flex;
-    width: 356px;
+    /*display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start;*/
+    text-align: left;
   }
 }
 
@@ -746,13 +738,10 @@ img {
 
 .five-section-icons {
   fill: currentColor;
-  width: 190px;
-  height: 88px;
 }
 
 @media only screen and (min-width: 768px) {
   .five-section-icons {
-    width: 168px;
   }
 }
 
@@ -828,7 +817,7 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   max-width: 264px;
 }
@@ -1204,7 +1193,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 392px;
+  width: calc(100% - 36px);
+  max-width: 392px;
   min-height: 584px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1387,6 +1377,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
@@ -1523,7 +1514,7 @@ input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -1556,7 +1547,7 @@ input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -1566,6 +1557,6 @@ input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
 }
