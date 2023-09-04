@@ -153,7 +153,7 @@ header {
 .contacts:focus,
 .link:hover,
 .link:focus,
-.guidance.current {
+.guidance .current {
   color: #404bbf;
 }
 
@@ -1510,9 +1510,13 @@ input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
   text-decoration: none;
 }
 
-.mobile-menu-item:not(:last-child) {
-  margin-bottom: 40px;
+.mobile-menu-text:not(:last-child) {
+  margin-bottom: 20px;
 }
+
+/*.mobile-menu-item:not(:last-child) {
+  margin-bottom: 40px;
+}*/
 
 .mobile-menu-link {
   color: var(--navyblue, #2e2f42);
@@ -1524,9 +1528,13 @@ input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
   text-transform: capitalize;
 }
 
-.mobile-menu-link:active {
-  color: var(--ocean, #404bbf);
+.mobile-menu-link .current {
+  color: #404bbf;
 }
+
+/*.mobile-menu-link:active {
+  color: var(--ocean, #404bbf);
+}*/
 
 .mobile-menu-list {
   display: flex;
@@ -1545,7 +1553,7 @@ input[type="checkbox"]:checked + .modal-form-agrement > .agreement-checkbox {
 .contacts-mobile-menu-tel {
   color: var(--iris, #4d5ae5);
   font-family: Roboto;
-  font-size: 24px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
